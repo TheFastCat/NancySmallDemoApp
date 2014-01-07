@@ -14,10 +14,10 @@ namespace Core
     public class CustomBootstrapper : DefaultNancyBootstrapper
     {
         // uncomment to remove default ctor
-        //public CustomBootstrapper(string str)
-        //{
+        public CustomBootstrapper()
+        {
 
-        //}
+        }
 
         protected override void ConfigureApplicationContainer(TinyIoCContainer container)
         {
